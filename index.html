@@ -1,214 +1,595 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>신작애니 리서치 및 기술 인프라 저널</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #0f172a;
-      --accent-color: #3b82f6;
-      --muted-color: #64748b;
-      --border-color: #e2e8f0;
-      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 신작애니 구글 상위노출 대행 | sf-t3-1779642675702-289.vercel.app</title>
+    <meta name="description" content="마포 지역 신작애니 전문, 구글 상위노출 대행으로 당신의 애니메이션을 전 세계에 알리세요. 브로 페르소나의 강력한 전략, Swiss Minimal 디자인으로 차원이 다른 결과를 제공합니다.">
+    <meta name="keywords" content="마포 구글 상위노출 대행, 신작애니 마케팅, 애니메이션 SEO, 구글 노출 대행, 마포 애니 홍보, 신작애니 구글 상위, 애니 SEO 대행, 마포 디지털 마케팅">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <link rel="canonical" href="https://sf-t3-1779642675702-289.vercel.app">
+    <meta property="og:title" content="마포 신작애니 구글 상위노출 대행 - 당신의 작품을 1면에">
+    <meta property="og:description" content="마포 지역 신작애니, 구글 상위노출 대행. Swiss Minimal 디자인, 브로 감성의 강력한 SEO로 결과를 증명합니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-289.vercel.app">
+    <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'%3E%3Crect width='1200' height='630' fill='%232d2a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23e07a5f' font-family='system-ui' font-size='48' font-weight='bold'%3E신작애니%3C/text%3E%3C/svg%3E">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 신작애니 구글 상위노출 대행">
+    <meta name="twitter:description" content="브로 감성의 강력한 SEO, Swiss Minimal 디자인. 결과로 말합니다.">
+    <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'%3E%3Crect width='1200' height='630' fill='%232d2a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23e07a5f' font-family='system-ui' font-size='48' font-weight='bold'%3E신작애니%3C/text%3E%3C/svg%3E">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "마포 신작애니 구글 상위노출 대행",
+        "description": "마포 지역 신작애니 전문 구글 상위노출 대행 서비스. 강력한 SEO와 Swiss Minimal 디자인으로 애니메이션의 가시성을 극대화합니다.",
+        "url": "https://sf-t3-1779642675702-289.vercel.app",
+        "telephone": "+82-10-6279-0862",
+        "areaServed": {
+            "@type": "City",
+            "name": "마포"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "마포",
+            "addressCountry": "KR"
+        },
+        "sameAs": [
+            "https://sf-t3-1779642675702-289.vercel.app"
+        ]
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: var(--font-swiss);
-      line-height: 1.7;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-decoration: none;
-      color: var(--text-color);
-    }
-    nav { display: flex; gap: 20px; }
-    nav a {
-      color: var(--muted-color);
-      text-decoration: none;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-    nav a:hover { color: var(--accent-color); }
-    main { padding-bottom: 60px; }
-    .meta-tag {
-      font-size: 0.75rem;
-      font-family: monospace;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 16px;
-      display: inline-block;
-    }
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.2;
-      letter-spacing: -0.03em;
-      color: var(--text-color);
-      margin-bottom: 32px;
-    }
-    .content {
-      font-size: 1.05rem;
-      color: var(--text-color);
-      margin-bottom: 48px;
-      font-weight: 300;
-    }
-    .content p { margin-bottom: 20px; }
-    .juice-link {
-      color: var(--accent-color);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent-color);
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .juice-link:hover {
-      background-color: rgba(59, 130, 246, 0.05);
-    }
-    .post-grid {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 40px;
-    }
-    .grid-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted-color);
-      margin-bottom: 24px;
-    }
-    .posts-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .post-card {
-      border: 1px solid var(--border-color);
-      padding: 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--text-color);
-      transition: all 0.2s ease;
-    }
-    .post-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-2px);
-    }
-    .post-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .post-card p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 60px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: var(--muted-color);
-    }
-    footer a { color: var(--muted-color); text-decoration: none; }
-    footer a:hover { color: var(--accent-color); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; align-items: flex-start; gap: 16px; }
-      h1 { font-size: 1.8rem; }
-    }
-  </style>
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, 'Inter', sans-serif;
+            background-color: #faf8f5;
+            color: #2d2a26;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        /* sticky nav */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #faf8f5;
+            border-bottom: 1px solid #2d2a26;
+            padding: 16px 24px;
+        }
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #2d2a26;
+            text-decoration: none;
+        }
+        .logo span {
+            color: #e07a5f;
+        }
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #2d2a26;
+            font-weight: 500;
+            font-size: 0.9rem;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+            padding-bottom: 2px;
+        }
+        .nav-links a:hover {
+            border-bottom: 1px solid #e07a5f;
+        }
+        .nav-links .cta-nav {
+            background-color: #2d2a26;
+            color: #faf8f5;
+            padding: 8px 16px;
+            border: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        .nav-links .cta-nav:hover {
+            background-color: #e07a5f;
+            border-bottom: none;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            padding: 4px;
+        }
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background-color: #2d2a26;
+            display: block;
+            transition: 0.3s;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 64px;
+                left: 0;
+                right: 0;
+                background-color: #faf8f5;
+                border-bottom: 1px solid #2d2a26;
+                padding: 16px 24px;
+                gap: 16px;
+                align-items: flex-start;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .container {
+                padding: 0 16px;
+            }
+        }
+        /* sections */
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #2d2a26;
+        }
+        section:last-of-type {
+            border-bottom: none;
+        }
+        .hero {
+            padding: 64px 0 48px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            color: #2d2a26;
+            margin-bottom: 16px;
+        }
+        .hero h1 .accent {
+            color: #e07a5f;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #2d2a26;
+            opacity: 0.8;
+            margin-bottom: 24px;
+            max-width: 480px;
+        }
+        .hero-visual {
+            background-color: #2d2a26;
+            aspect-ratio: 4 / 3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #2d2a26;
+            color: #faf8f5;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-visual::before {
+            content: "🎬";
+            font-size: 4rem;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.15;
+        }
+        .hero-visual span {
+            position: relative;
+            z-index: 1;
+            border: 2px solid #e07a5f;
+            padding: 8px 16px;
+        }
+        .btn-primary {
+            display: inline-block;
+            background-color: #e07a5f;
+            color: #faf8f5;
+            padding: 12px 28px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            border: 2px solid #2d2a26;
+            transition: background-color 0.2s ease, color 0.2s ease;
+            cursor: pointer;
+        }
+        .btn-primary:hover {
+            background-color: #2d2a26;
+            color: #faf8f5;
+            border-color: #e07a5f;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                gap: 24px;
+                padding: 40px 0 32px;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero-visual {
+                aspect-ratio: 16 / 9;
+            }
+        }
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 24px;
+            color: #2d2a26;
+            border-bottom: 2px solid #e07a5f;
+            display: inline-block;
+            padding-bottom: 4px;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #2d2a26;
+            padding: 24px;
+            transition: border-color 0.2s ease, transform 0.2s ease;
+            cursor: default;
+        }
+        .card:hover {
+            border-color: #e07a5f;
+            transform: translateY(-2px);
+        }
+        .card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #2d2a26;
+        }
+        .card p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-bottom: 8px;
+        }
+        .review-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            color: #2d2a26;
+            opacity: 0.6;
+            margin-top: 12px;
+            border-top: 1px solid #2d2a26;
+            padding-top: 8px;
+        }
+        .stars {
+            color: #e07a5f;
+            letter-spacing: 1px;
+        }
+        .ugc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+        }
+        .ugc-card {
+            background-color: #faf8f5;
+            border: 1px solid #2d2a26;
+            padding: 20px;
+        }
+        .ugc-card blockquote {
+            font-style: normal;
+            font-weight: 400;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+            color: #2d2a26;
+        }
+        .ugc-card .reviewer {
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+        .contact-section {
+            background-color: #2d2a26;
+            color: #faf8f5;
+            padding: 48px 0;
+            border-bottom: 1px solid #e07a5f;
+        }
+        .contact-section .section-title {
+            color: #faf8f5;
+            border-bottom-color: #e07a5f;
+        }
+        .contact-section a {
+            color: #e07a5f;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+        .contact-section a:hover {
+            border-bottom-color: #e07a5f;
+        }
+        .contact-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        @media (max-width: 768px) {
+            .contact-details {
+                grid-template-columns: 1fr;
+            }
+        }
+        footer {
+            background-color: #2d2a26;
+            color: #faf8f5;
+            padding: 24px 0;
+            text-align: center;
+            font-size: 0.8rem;
+            border-top: 2px solid #e07a5f;
+        }
+        footer a {
+            color: #e07a5f;
+            text-decoration: none;
+        }
+        .rule {
+            width: 100%;
+            height: 1px;
+            background-color: #2d2a26;
+            margin: 0;
+        }
+        .text-accent {
+            color: #e07a5f;
+        }
+        .btn-outline {
+            display: inline-block;
+            padding: 10px 24px;
+            border: 2px solid #2d2a26;
+            color: #2d2a26;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            background: transparent;
+        }
+        .btn-outline:hover {
+            background-color: #2d2a26;
+            color: #faf8f5;
+        }
+        /* utility */
+        .mb-16 {
+            margin-bottom: 16px;
+        }
+        .mt-24 {
+            margin-top: 24px;
+        }
+        .gap-16 {
+            gap: 16px;
+        }
+        .flex {
+            display: flex;
+        }
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+        .items-center {
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
     <header>
-      <a href="/" class="logo">T3.SWISS</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="meta-tag">SWISS ACCENTED GRID SYSTEM</div>
-      <h1>신작애니 리서치 및 기술 인프라 저널</h1>
-      <div class="content">
-        환영합니다. 본 블로그 저널은 현대적이고 세련된 <strong>신작애니</strong> 분야의 실용 정보와 심도 있는 기술 에세이를 기록하는 전문 아카이브 공간입니다. 아래의 엄선된 아티클 리스트를 통해 다양한 인사이트를 확인하시기 바랍니다.
-      </div>
-      
-      
-      <div class="post-grid">
-        <div class="grid-title">Recent Post Archive</div>
-        <div class="posts-list">
-          
-        <a href="posts/normal-1.html" class="post-card">
-          <h3>신작애니: 라이프스타일: 일상 최적화 가이드</h3>
-          <p>바쁘게 흘러가는 도심 라이프 속에서 나만의 시간적 여유와 쾌적한 데일리 습관을 디자인하는 것은 삶의 질을 극대화하는 가장 첫 번째 과제입니다. 미니멀한 마인드와 루틴 설계는 큰 힘...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="post-card">
-          <h3>신작애니: 라이프스타일: 공간 미학과 정리 정돈</h3>
-          <p>가구 배치와 조명 연출 하나만으로 평범한 방을 아늑한 아지트로 변모시키는 공간 정리 팁은 내 멘탈 에너지를 가득 채워주는 보이지 않는 강력한 힘을 발휘하는 일상 속 예술입니다....</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="post-card">
-          <h3>신작애니: 라이프스타일: 디지털 디톡스와 아날로그 쉼표</h3>
-          <p>끊임없이 쏟아지는 푸시 알림과 스마트폰의 피로로부터 온전히 격리된 채, 하루에 단 30분씩이라도 책을 읽거나 명상을 즐기는 아날로그 디톡스 루틴은 정신 건강을 지키는 든든한 방패입...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="post-card">
-          <h3>라이프스타일 에디터가 강력 추천하는 구글 상위노출 대행 알짜 가이드</h3>
-          <p>복잡하고 정신없이 굴러가는 하루 일상 속에서 나만의 아날로그 감성과 행복한 쉼표를 기획하는 세련된 에디터분들이라면, 삶의 질을 높여주는 오프라인 휴식 공간의 정보와 최적의 혜택을 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="post-card">
-          <h3>라이프스타일 에디터가 강력 추천하는 구글 상위노출 대행 알짜 가이드</h3>
-          <p>복잡하고 정신없이 굴러가는 하루 일상 속에서 나만의 아날로그 감성과 행복한 쉼표를 기획하는 세련된 에디터분들이라면, 삶의 질을 높여주는 오프라인 휴식 공간의 정보와 최적의 혜택을 ...</p>
-        </a>
-      
+        <div class="nav-inner">
+            <a href="/" class="logo">🎬 <span>신작애니</span> SEO</a>
+            <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#reviews">후기</a></li>
+                <li><a href="#contact">연락처</a></li>
+                <li><a href="tel:+821062790862" class="cta-nav">📞 전화걸기</a></li>
+            </ul>
         </div>
-      </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section style="padding-top: 0; border-bottom: none;">
+            <div class="container hero">
+                <div>
+                    <h1>마포 신작애니,<br><span class="accent">구글 1면</span>에<br>꽂아드립니다</h1>
+                    <p>당신의 애니메이션, 아무리 좋아도 묻히면 의미 없습니다. 브로의 감각, Swiss Minimal의 정확함으로 구글 상위노출을 대행합니다. 결과는 숫자로 보여드립니다.</p>
+                    <a href="tel:+821062790862" class="btn-primary">📞 지금 전화: 010-6279-0862</a>
+                </div>
+                <div class="hero-visual">
+                    <span>🎥 신작 대기중</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 서비스 섹션 -->
+        <section id="services">
+            <div class="container">
+                <h2 class="section-title">🔥 우리가 해내는 것</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>🔍 구글 상위노출 대행</h3>
+                        <p>마포 지역 신작애니, 롱테일 키워드로 정밀 타겟팅. 알고리즘을 존중하되, 우리 방식으로 게임을 바꿉니다.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🎯 애니메이션 SEO 전략</h3>
+                        <p>단순 노출이 아닌, 클릭으로 이어지는 콘텐츠. 당신의 작품 세계관을 검색 결과에 온전히 담습니다.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📈 데이터 기반 퍼포먼스</h3>
+                        <p>허튼 수사 없습니다. Swiss Minimal의 투명함으로 진행 상황을 공유, 결과로 증명합니다.</p>
+                    </div>
+                    <div class="card">
+                        <h3>⚡ 빠른 실행, 강력한 임팩트</h3>
+                        <p>마포에서 시작해 전 세계로. 당신의 신작을 기다리는 팬들에게 제대로 알리는 유일한 방법.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- UGC 리뷰 섹션 -->
+        <section id="reviews">
+            <div class="container">
+                <h2 class="section-title">💬 생생한 후기</h2>
+                <div class="ugc-grid">
+                    <div class="ugc-card">
+                        <blockquote>“마포에서 독립 애니를 만들었는데, 이 팀 덕분에 구글 첫 페이지에 떴습니다. 결과가 말해요.”</blockquote>
+                        <div class="review-meta">
+                            <span class="reviewer">애니덕후_지호</span>
+                            <span>2025.03.12</span>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <div class="ugc-card">
+                        <blockquote>“SEO 대행이라고 해서 반신반의했는데, 방문자가 3배 늘었습니다. 브로 감성 짱.”</blockquote>
+                        <div class="review-meta">
+                            <span class="reviewer">서울애니메이션랩</span>
+                            <span>2025.02.28</span>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <div class="ugc-card">
+                        <blockquote>“Swiss Minimal 디자인 + 강력한 SEO 조합, 진짜 차원이 다릅니다. 추천합니다.”</blockquote>
+                        <div class="review-meta">
+                            <span class="reviewer">모션픽쳐스_유</span>
+                            <span>2025.01.15</span>
+                        </div>
+                        <div class="stars">★★★★☆</div>
+                    </div>
+                    <div class="ugc-card">
+                        <blockquote>“구글 상위노출 대행, 여기만한 곳 없습니다. 마포에서 신작 내면 무조건 연락하세요.”</blockquote>
+                        <div class="review-meta">
+                            <span class="reviewer">프레임워커_민호</span>
+                            <span>2024.12.20</span>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <div class="ugc-card">
+                        <blockquote>“결과를 숫자로 보여주는 게 인상적이었어요. 투명하고 확실합니다.”</blockquote>
+                        <div class="review-meta">
+                            <span class="reviewer">토이애니_수진</span>
+                            <span>2024.11.05</span>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연락처 섹션 (전화 링크 포함) -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">📞 지금 바로 연락하세요</h2>
+                <p style="margin-bottom: 16px; font-size: 1.1rem;">마포 신작애니 구글 상위노출 대행은 한 번의 통화로 시작됩니다.</p>
+                <div class="contact-details">
+                    <div style="border: 1px solid #e07a5f; padding: 24px;">
+                        <p style="font-weight: 700; font-size: 1.2rem;">전화 상담</p>
+                        <a href="tel:+821062790862" style="font-size: 1.5rem; display: block; margin-top: 8px;">010-6279-0862</a>
+                        <p style="margin-top: 8px; opacity: 0.7;">24시간 예약 가능, 빠른 응답</p>
+                    </div>
+                    <div style="border: 1px solid #e07a5f; padding: 24px;">
+                        <p style="font-weight: 700; font-size: 1.2rem;">바로 방문</p>
+                        <p style="margin-top: 8px;">마포구 일대, 협의 후 방문 상담</p>
+                        <p style="margin-top: 8px; opacity: 0.7;">결과로 보답합니다.</p>
+                    </div>
+                </div>
+                <div style="margin-top: 24px; border-top: 1px solid #e07a5f; padding-top: 16px; display: flex; gap: 16px; flex-wrap: wrap;">
+                    <a href="tel:+821062790862" class="btn-primary" style="background-color: #e07a5f; border-color: #faf8f5;">📞 전화 걸기</a>
+                    <a href="mailto:contact@example.com" class="btn-outline" style="border-color: #faf8f5; color: #faf8f5;">✉️ 이메일 문의</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-      <div>&copy; 2026 T3.SWISS. ALL RIGHTS RESERVED.</div>
+
+    
+
+
+<!-- PBN Recent Posts Feed Section -->
+<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
+  <div style="max-width:1100px;margin:0 auto">
+    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+      
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
       <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">구글 상위노출 대행 경험자에게 물어본 현실적인 판단 기준</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 제목: 창작한 제목 원화가 어시스턴트의 시점에서 특정 에피소드에서만 작화감독 이름이 빠진 이유에 대해 이야기해 보겠습니다. 아, 진짜... 원화와 동화는 그 자체로 다른 개념입니다. 애니메이션 제작 과정을 자세히 설명하면 약간 길어질 것 같네요. 대신 학습 데이</p>
       </div>
-    </footer>
+      <a href="posts/interview-001-10b1k3b.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">구글 상위노출 대행 관련 추천 정보 — 놓치면 후회할 꿀팁</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 포스트 메타정보포스트 기획 테마: 구글 상위노출 대행 관련 추천 정보 — 놓치면 후회할 꿀팁 백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라:상세 정보 확인 ## 공장 도색의 숨겨진 마스킹 미스 UV라이트 검사법 아, 진짜... ALT</p>
+      </div>
+      <a href="posts/t3link-002-10b1k3b.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    </div>
   </div>
+</section>
+<footer>
+        <div class="container">
+            <p>© 2025 <a href="https://sf-t3-1779642675702-289.vercel.app">sf-t3-1779642675702-289.vercel.app</a> — 마포 신작애니 구글 상위노출 대행. All rights reserved.</p>
+            <p style="margin-top: 8px; opacity: 0.6;">Swiss Minimal · Warm Grid · Bro Persona · No Excuses</p>
+        </div>
+    </footer>
+
+    <script>
+        // 햄버거 메뉴 클릭 이외의 영역 클릭 시 메뉴 닫기 (선택사항)
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('.nav-links');
+            const hamburger = document.querySelector('.hamburger');
+            if (nav.classList.contains('active') && !nav.contains(event.target) && !hamburger.contains(event.target)) {
+                nav.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>
